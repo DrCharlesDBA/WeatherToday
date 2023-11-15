@@ -8,10 +8,18 @@
     
 }
 
-.container {
-    background-image: url(./02.jpg);
-    height: 100vh;
+.container, #MyProjects, #MySkills, #MyAbout, #MyContact {
+    min-height: 100vh;
     width: 100%;
+    background-color: aquamarine;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.container {
+    background-image: url(./0.jpeg);
+    /* height: 100vh;
+    width: 100%; */
     position: relative;
     /* background: rgb(196, 222, 232); */
     background-size: cover;
@@ -167,31 +175,73 @@ transition: 0.3s;
 
 section {
     /* display: block; */
-    display: inline-block;
+    /* display: inline-block; */
     margin-left: 20px;
 }
-
+/* 
 .menuoptions {
     background-image: url(./2.jpg);
     background-size: cover;
     background-position: center;
-    display: inline-block;
-    height: 100vh;
+    background-repeat: no-repeat;
+    /* display: inline-block; */
+    /* height: 100vh;
     width: 100%;
     padding: 0 20px;
-    position: relative;
+    /* position: relative; */
     /* background: rgb(196, 222, 232); */
-    background-size: cover;
-    background-position: center;
-    /* display: flex; */
+    /* background-size: cover;
+    background-position: center; */
+    /* display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center; 
     color: aliceblue;
+    border: 4px solid red; */
 
     /* start of the menu design  */
 
-
-    /* end of menu design */
+/* 
+    end of menu design 
     
+} */
+    
+#MyContact{
+    background-image: url(./pic1.jpeg);
+    background-size: cover;
+}
+
+#MyAbout{
+    background-image: url(./1.jpeg);
+    background-size: cover;
+}
+
+#MySkills{
+    background-image: url(./11.jpg);
+    background-size: cover;
+}
+
+#MyProjects{
+    background-image: url(./11.jpg);
+    background-size: cover;
+    font-size: 20px;
+    color: aqua;
+}
+
+.btnweather {
+
+    padding: 15px 15px 20px 25px;
+    border-radius: 20px;
+    background-color: violet;
+    border: 3px solid violet;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.3s;
+    /* margin: 80px; */
+}
+
+.btnweather:hover{
+    background-color: rgb(29, 32, 34);
+    color: blueviolet;
 }
 
